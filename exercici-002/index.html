@@ -4,3 +4,113 @@
         <meta charset="UTF-8">
         <title>UrbanLook - Tenda de moda urbana </title>
         <link rel="stylesheet" href="global.css">
+                <style>
+            /* Hero inicial */
+            .hero {
+            text-align: center;
+            background: url('https://via.placeholder.com/1100x300/222/fff?text=Moda+Urbana') center/cover;
+            color: rgb#222;
+            padding: 100px 20px;
+            }
+
+            .hero h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            }
+
+            .hero p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            }
+
+            .hero a {
+            display: inline-block;
+            background: #ffb400;
+            color: black;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 4px;
+            }
+
+            /* Secció de col·leccions */
+            .colleccions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 40px;
+            }
+
+            .colleccio {
+            flex: 1 1 300px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 6px rgba(0,0,0,0.1);
+            }
+
+            .colleccio span {
+            background: #eee;
+            padding: 4px 8px;
+            font-size: 0.8em;
+            border-radius: 4px;
+            margin-right: 6px;
+            }
+
+            /* Banda de beneficis amb Flex */
+            .beneficis {
+            background: #ffb400;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 15px;
+            margin-top: 40px;
+            border-radius: 4px;
+            font-weight: bold;
+            }
+        </style>
+    </head>
+        <body>
+        <nav>
+            <a href="index.html">Inici</a>
+            <a href="productes.html">Productes</a>
+            <a href="contacte.html">Contacte</a>
+        </nav>
+
+        <div class="contenidor">
+            <section class="hero">
+            <h1>UrbanLook</h1>
+            <p>Roba urbana per al teu dia a dia</p>
+            <a href="productes.html">Descobreix la col·lecció</a>
+            </section>
+
+            <section class="colleccions">
+            <div class="colleccio">
+                <h3>Nova temporada</h3>
+                <p>Descobreix les noves peces amb estil minimalista i modern.</p>
+                <span>#primavera</span><span>#casual</span>
+            </div>
+            <div class="colleccio">
+                <h3>Bàsics imprescindibles</h3>
+                <p>Samarretes, pantalons i dessuadores per al dia a dia.</p>
+                <span>#bàsics</span><span>#comoditat</span>
+            </div>
+            <div class="colleccio">
+                <h3>Edició limitada</h3>
+                <p>Dissenys exclusius per destacar amb personalitat.</p>
+                <span>#limitada</span><span>#exclusiu</span>
+            </div>
+            </section>
+
+            <div class="beneficis">
+            <span>Enviament 48h</span>
+            <span>Canvis gratuïts</span>
+            <span>Pagament segur</span>
+            </div>
+        </div>
+
+        <footer>
+            &copy; 2025 UrbanLook · info@urbanlook.cat
+        </footer>
+        </body>
+</html>
