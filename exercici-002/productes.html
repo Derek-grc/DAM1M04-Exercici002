@@ -4,3 +4,55 @@
   <meta charset="UTF-8">
   <title>UrbanLook - Productes </title>
 <link rel="stylesheet" href="global.css">
+      <style>
+    /* Barra de filtres */
+    .filtres {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .filtres span {
+      display: inline-block;
+      margin: 0 8px;
+      padding: 6px 10px;
+      background: #eee;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .filtres span:hover {
+      background: #ddd;
+    }
+
+    /* Grid de productes amb Flex */
+    .productes {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .targeta {
+      flex: 1 1 260px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 0 6px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .targeta img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .targeta h4 {
+      margin: 10px 0 5px;
+    }
+
+    .targeta p {
+      color: #555;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
