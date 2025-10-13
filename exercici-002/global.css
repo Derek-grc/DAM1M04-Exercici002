@@ -1,0 +1,58 @@
+/* Estils generals compartits a totes les pàgines */
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* Menú fix superior */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color:#222;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 15px 0;
+  z-index: 100;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffb400;
+}
+
+/* Peu de pàgina */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+  font-size: 0.9em;
+}
+
+/* Contenidor principal centrat */
+.contenidor {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 80px; /* per deixar espai sota el menú fix */
+}
+
+.contenidor {
+  max-width: 1100px;
+  margin: auto;
+  margin-top: 70px;
+  padding: 20px;
+  background-color: white;
+}
